@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-[#562ED9] h-[100vh] flex justify-center items-center">
+    <div class="w-[500px] h-[400px] rounded-[20px] bg-[#2A186D] text-center content-center">
+        <h1 class="text-white text-[30px] text-center">Text vois</h1>
+        <br>
+        <textarea name="" id="text" class="rounded-[15px] h-[170px] bg-white w-[450px] p-[5px]" raws="5" cols="40"></textarea>
+        <br>
+        <select name="" class="w-[400px] h-[40px] rounded-[15px] bg-white" id="voisSelect">
+            <option value="defoult">Select voice</option>
+            <option value="en-US">English (US)</option>
+            <option value="ru-RU">Русский</option>
+            <option value="es-ES">Español</option>
+            <option value="fr-FR">Français</option>
+        </select>
+        <br>
+        <br>
+        <button class="rounded-md text-white bg-[#2575FC] px-[100px] py-[5px]" id="playbutton">Play</button>
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
